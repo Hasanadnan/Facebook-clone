@@ -1,0 +1,74 @@
+/*.......................///////Notification//////...................*/
+.notification-count{
+position:relative;
+}
+
+.notification-svg .cls-1, .cls-2{
+    fill: white;
+    stroke: white;
+}
+.notification-svg .cls-2{
+    fill: black;
+    stroke: white;
+}
+.notification-svg:hover .cls-2{
+    fill: white;
+    stroke: white;
+}
+.notification-count {
+    position: absolute;
+    top: -5px;
+    left: 26px;
+    background-color: red;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+.notification-list-wrap {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 31px;
+    z-index: 9;
+    box-shadow: 2px 2px 5px grey;
+}
+.item-notification {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    /* background-color: #9E9E9E; */
+    /*color: gray;*/
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.item-notification-wrap:hover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    background-color: #6f6f6f;
+    color: white;
+    padding: 0 5px;
+    /*margin-bottom: 5px;*/
+}
+li.item-notification-wrap a:hover {
+    
+    color: white;
+   
+    /*margin-bottom: 5px;*/
+}
+li.item-notification-wrap {
+    border-bottom: 1px solid lightgray;
+
+}
+li.item-notification-wrap a{
+ color:gray;
+    
+}
+.unread-notification {
+    background-color: #ffeb3b63;
+}
+.read-notification {
+    background-color: #fff;
+}
+/*.......................///////Notification END//////...................*/

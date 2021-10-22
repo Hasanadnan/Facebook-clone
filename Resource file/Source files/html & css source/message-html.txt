@@ -1,0 +1,77 @@
+<div class="main" style="">
+            <div class="mes-top-bar" style="display: flex; width: 100%;height: 100vh;">
+                <div class="top-left" style="flex-basis: 20%; border-bottom:1px solid lightgray;">
+                    <div class="top-area" style="height: 50px; width: 100%; border-bottom:1px solid lightgray;">
+                        <div class="msg-setting-write" style="height: 100%;display: flex;justify-content: space-around;align-items: center;">
+                            <div class="msg-setting">
+                                <img src="assets/image/messenger/msgSetting.JPG" alt="">
+                            </div>
+                            <div class="msg-name-text" style="font-size: 22px;">Message</div>
+                            <div class="msg-write-button">
+                                <img src="assets/image/messenger/writeMsg.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-search align-middle" style="margin: 5px 0;padding: 0 10px;position:relative;">
+                        <input type="text" name="" class="user-search" placeholder="Find user" style="width:90%;height: 25px;border-radius: 34px;border: 1px solid lightgray;padding:5px;text-align:center;">
+                        <div class="user-show" style="width:90%;position:absolute;text-align:center;">
+
+                        </div>
+                    </div>
+                    <ul class="msg-user-add" style="padding: 0 10px;">
+
+                        <?php
+
+                         ?>
+
+                    </ul>
+                </div>
+                <div class="top-middle" style="flex-basis: 60%;border:1px solid lightgray;/* overflow: scroll; */position: relative;border-top: none;border-right: none;">
+                    <div class="top-area" style="height: 50px;width: 100%;border-bottom:1px solid lightgray;/* display: block; */">
+                        <div class="top-user-name-pic-wrap " style="display: flex;margin-left:5px;height: 100%;align-items: center;">
+                            <div class="top-msg-user-photo ">
+                                <img src="[PROFILE-PIC]" alt="" style="height:40px;width:40px;border-radius:50%;">
+                            </div>
+                            <div class="top-msg-user-name align-middle" style="margin-left: 10px; font-size: 17px; font-weight:600;">[USERS_FIRSTNAME_LASTNAME]</div>
+                        </div>
+
+ <div class="top-user-name-pic-wrap " style="display: flex;margin-left:5px;height: 100%;align-items: center;">
+                            <div class="top-msg-user-photo ">
+                                <img src="assets/image/defaultProfile.png" alt="" style="height:40px;width:40px;border-radius:50%;">
+                            </div>
+                            <div class="top-msg-user-name align-middle" style="margin-left: 10px; font-size: 17px; font-weight:600;">
+                                 </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="msgg-details" style=" height: 78%;overflow-y: scroll;">
+                        <div class="msg-show-wrap">
+                            <div class="user-info" data-userid="[USERID]" data-otherid="[LASTPERSONID]>"></div>
+                            <div class="msg-box" style="    display: flex;flex-direction: column;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <textarea name="" id="msgInput" cols="30" rows="10" placeholder="type a message... " style="height: 50px;
+    width: 100%;    border-radius: 20px;position: absolute;
+    bottom: 42px;
+"></textarea>
+                </div>
+                <div class="top-right" style="flex-basis: 20%; border-bottom:1px solid lightgray;">
+                    <div class="top-area" style="height: 50px; width: 100%; border-bottom:1px solid lightgray;"></div>
+                    <div class="right-users-details align-middle" style="height: 100%; flex-direction: column;margin-top: -100px;">
+                        <div class="users-right-pro-pic">
+                            <img src="[IMAGE-SOURCE]" alt="" style="height:100px; width: 100px;border-radius: 50%;">
+                        </div>
+                        <div class="users-right-pro-name" style="font-size: 20px;margin-top:10px; font-weight: 600;">[USERNAME]
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="mes-rest-bar"></div>
+
+        </div>
